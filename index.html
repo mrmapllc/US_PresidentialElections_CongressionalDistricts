@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive SVG Map with Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+        }
+        #container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        #header {
+            text-align: center;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        #map {
+            width: 100%;
+            height: calc(100% - 60px); /* Adjust for header height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .district {
+            stroke: white; /* Ensure all borders are white */
+            stroke-width: 1px;
+            fill-opacity: 1; /* Set fill opacity to 1 */
+            transition: fill-opacity 0.3s, stroke 0.3s; /* Added transition for stroke */
+        }
+        .district:hover {
+            stroke: yellow; /* Change stroke color on hover */
+        }
+        .legend {
+            font-family: Arial, sans-serif;
+            font-size: 16px; /* Increase font size */
+            background: white;
+            padding: 15px; /* Increase padding */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px; /* Increase margin between items */
+        }
+        .legend-color {
+            width: 30px; /* Increase width */
+            height: 30px; /* Increase height */
+            margin-right: 10px;
+        }
+        .zoom-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .zoom-buttons button {
+            background: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            width: 220px;
+            padding: 10px;
+            font: 12px sans-serif;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            pointer-events: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">United States 2020 Presidential Election Results - Congressional Districts</div>
+        <div id="map"></div>
+        <div class="zoom-buttons">
+            <button id="zoom-in">Zoom In</button>
+            <button id="zoom-out">Zoom Out</button>
+            <button id="home">Home</button>
+        </div>
+    </div>
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #A61C25;"></div>
+            <span>Republican</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #3264C8;"></div>
+            <span>Democrat</span>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+        // Define the file paths
+        var svgPath = "http://localhost:8081/US_Congressional_districts.svg";
+        var csvPath = "http://localhost:8081/congressionaldistricts.csv";
+
+        var initialScale = 0.5; // Initial scale
+        var translateX, translateY; // To store initial translate values
+        var zoom; // To store zoom behavior
+        var svg; // To store the SVG element
+
+        // Create tooltip element
+        var tooltip = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+
+        // Load the CSV data
+        d3.csv(csvPath).then(function(data) {
+            // Convert the data to a dictionary for fast lookup
+            var dataDict = {};
+            data.forEach(function(d) {
+                dataDict[d.idmatch.trim()] = d; // Ensure no leading/trailing spaces
+            });
+
+            // Log the keys in the data dictionary for debugging
+            console.log("Data dictionary keys:", Object.keys(dataDict));
+
+            // Load the SVG
+            d3.xml(svgPath).then(function(xml) {
+                document.getElementById('map').appendChild(xml.documentElement);
+
+                // Select the SVG element
+                svg = d3.select("#map").select("svg");
+
+                // Ensure SVG is responsive and fills the container
+                svg.attr("preserveAspectRatio", "xMidYMid meet")
+                   .attr("viewBox", svg.attr("viewBox") || "0 0 " + svg.attr("width") + " " + svg.attr("height"));
+
+                // Log all the IDs in the SVG for debugging
+                var svgIDs = [];
+                svg.selectAll("path").each(function() {
+                    svgIDs.push(this.getAttribute("id").trim()); // Ensure no leading/trailing spaces
+                });
+                console.log("SVG IDs:", svgIDs);
+
+                // Define zoom behavior
+                zoom = d3.zoom()
+                    .scaleExtent([0.5, 8]) // Adjusted scaleExtent to allow zooming out further
+                    .on("zoom", zoomed);
+
+                // Add zoom to the SVG
+                svg.call(zoom);
+
+                // Get the bounding box of the SVG content
+                var bbox = svg.node().getBBox();
+                var width = +svg.attr("width");
+                var height = +svg.attr("height");
+
+                // Calculate the initial scale and translation
+                translateX = (width - bbox.width * initialScale) / 2 - bbox.x * initialScale;
+                translateY = (height - bbox.height * initialScale) / 2 - bbox.y * initialScale;
+
+                // Apply the initial zoom transform
+                svg.call(zoom.transform, d3.zoomIdentity.translate(translateX, translateY).scale(initialScale));
+
+                // Function to handle zoom
+                function zoomed(event) {
+                    svg.selectAll("path").attr("transform", event.transform);
+                }
+
+                // Add interactivity and data to the SVG elements
+                svg.selectAll("path")
+                    .attr("class", "district")
+                    .each(function() {
+                        var id = this.getAttribute("id").trim(); // Ensure no leading/trailing spaces
+                        console.log("Processing ID:", id); // Debugging
+                        if (id && dataDict[id]) {
+                            // Attach data to the element
+                            console.log("Matching data found for ID:", id); // Debugging
+                            d3.select(this).datum(dataDict[id]);
+                            // Set fill color based on PARTY
+                            var party = dataDict[id].PARTY;
+                            console.log("PARTY for ID " + id + ":", party); // Debugging
+                            if (party === "Republican") {
+                                d3.select(this).style("fill", "#A61C25");
+                            } else if (party === "Democrat") {
+                                d3.select(this).style("fill", "#3264C8");
+                            } else {
+                                d3.select(this).style("fill", "gray");
+                            }
+                        } else {
+                            console.warn("No matching data found for ID:", id); // Debugging
+                        }
+                    })
+                    .on("mouseover", function(event, d) {
+                        d3.select(this).attr("fill-opacity", 1);
+                        var districtText = d.CDID.slice(-2) === "00" ? "Congressional District:<br>At-Large" : "Congressional District " + d.CDID.slice(-2);
+                        tooltip.transition()
+                            .duration(200)
+                            .style("opacity", .9);
+                        tooltip.html("<strong style='font-size: 16px;'>" + d.STATE + "</strong><br>" +
+                                     "<strong style='font-size: 14px;'>" + districtText + "</strong><br><br>" +
+                                     "Republican Votes: " + parseInt(d.REP_VOT).toLocaleString() + "<br>" +
+                                     "Democrat Votes: " + parseInt(d.DEM_VOT).toLocaleString() + "<br>" +
+                                     "Other Votes: " + parseInt(d.OTH_VOT).toLocaleString() + "<br>" +
+                                     "Total Votes: " + parseInt(d.TOT_VOT).toLocaleString() + "<br><br>" +
+                                     "<strong>Winner: " + d.PARTY + "</strong>")
+                            .style("left", (event.pageX + 5) + "px")
+                            .style("top", (event.pageY - 28) + "px");
+                    })
+                    .on("mouseout", function(event, d) {
+                        d3.select(this).attr("fill-opacity", 1);
+                        tooltip.transition()
+                            .duration(500)
+                            .style("opacity", 0);
+                    })
+                    .on("click", function(event, d) {
+                        var bounds = this.getBBox();
+                        var dx = bounds.width,
+                            dy = bounds.height,
+                            x = bounds.x + dx / 2,
+                            y = bounds.y + dy / 2,
+                            scale = Math.max(0.9, Math.min(8, 0.9 / Math.max(dx / width, dy / height))),
+                            translate = [width / 2 - scale * x, height / 2 - scale * y];
+                        
+                        svg.transition().duration(750).call(
+                            zoom.transform,
+                            d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
+                        );
+                    });
+
+                // Button functionalities
+                document.getElementById("zoom-in").addEventListener("click", function() {
+                    svg.transition().duration(750).call(
+                        zoom.scaleBy, 1.2
+                    );
+                });
+
+                document.getElementById("zoom-out").addEventListener("click", function() {
+                    svg.transition().duration(750).call(
+                        zoom.scaleBy, 0.8
+                    );
+                });
+
+                document.getElementById("home").addEventListener("click", function() {
+                    svg.transition().duration(750).call(
+                        zoom.transform, d3.zoomIdentity.translate(translateX, translateY).scale(initialScale)
+                    );
+                });
+
+            }).catch(function(error) {
+                console.error("Error loading SVG:", error);
+            });
+        }).catch(function(error) {
+            console.error("Error loading CSV:", error);
+        });
+    </script>
+</body>
+</html>

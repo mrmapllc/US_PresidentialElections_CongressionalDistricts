@@ -1,0 +1,449 @@
+﻿FID,DISTRICTID,STATE_ABBR,NAME,LAST_NAME,PARTY,STATE,REP_VOT,DEM_VOT,OTH_VOT,TOT_VOT,CDID,idmatch
+231,200,AK,Don Young,Young,Republican,Alaska,189951,153778,15801,359530,AK00,AK_At-Large
+225,101,AL,Jerry Carl,Carl,Republican,Alabama,211419,117089,4269,332777,AL01,AL_1
+226,102,AL,Barry Moore,Moore,Republican,Alabama,197261,106429,3741,307431,AL02,AL_2
+227,103,AL,Mike Rogers,Rogers,Republican,Alabama,210595,110978,4058,325631,AL03,AL_3
+228,104,AL,Robert B. Aderholt,Aderholt,Republican,Alabama,260264,57440,3766,321470,AL04,AL_4
+229,105,AL,Mo Brooks,Brooks,Republican,Alabama,228396,130254,6960,365610,AL05,AL_5
+230,106,AL,Gary J. Palmer,Palmer,Republican,Alabama,248657,117142,7035,372834,AL06,AL_6
+0,107,AL,Terri A. Sewell,Sewell,Democrat,Alabama,84575,210754,3383,298712,AL07,AL_7
+236,501,AR,Eric A. “Rick” Crawford,Crawford,Republican,Arkansas,187640,75898,8174,271712,AR01,AR_1
+237,502,AR,J. French Hill,Hill,Republican,Arkansas,177053,147552,8742,333347,AR02,AR_2
+238,503,AR,Steve Womack,Womack,Republican,Arkansas,207781,118142,9931,335854,AR03,AR_3
+239,504,AR,Bruce Westerman,Westerman,Republican,Arkansas,188173,82340,7643,278156,AR04,AR_4
+1,401,AZ,Tom O'Halleran,O'Halleran,Democrat,Arizona,180673,187182,5724,373579,AZ01,AZ_1
+2,402,AZ,Ann Kirkpatrick,Kirkpatrick,Democrat,Arizona,171803,213408,6225,391436,AZ02,AZ_2
+3,403,AZ,Raúl M. Grijalva,Grijalva,Democrat,Arizona,99539,174882,4076,278497,AZ03,AZ_3
+232,404,AZ,Paul A. Gosar,Gosar,Republican,Arizona,280122,126024,5792,411938,AZ04,AZ_4
+233,405,AZ,Andy Biggs,Biggs,Republican,Arizona,262810,195270,7518,465598,AZ05,AZ_5
+234,406,AZ,David Schweikert,Schweikert,Republican,Arizona,222166,204365,5797,432328,AZ06,AZ_6
+4,407,AZ,Ruben Gallego,Gallego,Democrat,Arizona,55436,165129,3603,224168,AZ07,AZ_7
+235,408,AZ,Debbie Lesko,Lesko,Republican,Arizona,251443,181691,5818,438952,AZ08,AZ_8
+5,409,AZ,Greg Stanton,Stanton,Democrat,Arizona,137694,224192,6912,368798,AZ09,AZ_9
+240,601,CA,Doug LaMalfa,LaMalfa,Republican,California,203608,148439,9490,361537,CA01,CA_1
+12,610,CA,Josh Harder,Harder,Democrat,California,146084,154990,7985,309059,CA10,CA_10
+13,611,CA,Mark DeSaulnier,DeSaulnier,Democrat,California,90410,284861,8001,383272,CA11,CA_11
+14,612,CA,Nancy Pelosi,Pelosi,Democrat,California,46574,337517,8037,392128,CA12,CA_12
+15,613,CA,Barbara Lee,Lee,Democrat,California,33907,335474,7935,377316,CA13,CA_13
+16,614,CA,Jackie Speier,Speier,Democrat,California,73798,279708,6662,360168,CA14,CA_14
+17,615,CA,Eric Swalwell,Swalwell,Democrat,California,94389,255422,7485,357296,CA15,CA_15
+18,616,CA,Jim Costa,Costa,Democrat,California,85647,129458,5424,220529,CA16,CA_16
+19,617,CA,Ro Khanna,Khanna,Democrat,California,79260,224903,6163,310326,CA17,CA_17
+20,618,CA,Anna G. Eshoo,Eshoo,Democrat,California,82172,294545,9279,385996,CA18,CA_18
+21,619,CA,Zoe Lofgren,Lofgren,Democrat,California,91063,228232,6689,325984,CA19,CA_19
+6,602,CA,Jared Huffman,Huffman,Democrat,California,95641,294471,10433,400545,CA02,CA_2
+22,620,CA,Jimmy Panetta,Panetta,Democrat,California,77969,226505,7672,312146,CA20,CA_20
+23,621,CA,David Valadao,Valadao,Republican,California,74859,93560,3655,172074,CA21,CA_21
+243,622,CA,Devin Nunes,Nunes,Republican,California,163584,146467,6783,316834,CA22,CA_22
+244,623,CA,Kevin McCarthy,McCarthy,Republican,California,176413,125068,7448,308929,CA23,CA_23
+24,624,CA,Salud O. Carbajal,Carbajal,Democrat,California,134810,221831,9861,366502,CA24,CA_24
+25,625,CA,Mike Garcia,Garcia,Republican,California,153161,188421,7667,349249,CA25,CA_25
+26,626,CA,Julia Brownley,Brownley,Democrat,California,128914,216840,7543,353297,CA26,CA_26
+27,627,CA,Judy Chu,Chu,Democrat,California,104088,226666,6706,337460,CA27,CA_27
+28,628,CA,Adam B. Schiff,Schiff,Democrat,California,97112,252705,6659,356476,CA28,CA_28
+29,629,CA,Tony Cárdenas,Cárdenas,Democrat,California,59671,186796,5636,252103,CA29,CA_29
+7,603,CA,John Garamendi,Garamendi,Democrat,California,139683,179793,8085,327561,CA03,CA_3
+30,630,CA,Brad Sherman,Sherman,Democrat,California,110935,258910,7016,376861,CA30,CA_30
+31,631,CA,Pete Aguilar,Aguilar,Democrat,California,115221,174178,6839,296238,CA31,CA_31
+32,632,CA,Grace F. Napolitano,Napolitano,Democrat,California,93155,184978,5776,283909,CA32,CA_32
+33,633,CA,Ted Lieu,Lieu,Democrat,California,120287,285906,8069,414262,CA33,CA_33
+34,634,CA,Jimmy Gomez,Gomez,Democrat,California,40552,193874,5518,239944,CA34,CA_34
+35,635,CA,Norma J. Torres,Torres,Democrat,California,83352,166339,5654,255345,CA35,CA_35
+36,636,CA,Raul Ruiz,Ruiz,Democrat,California,131304,173573,5433,310310,CA36,CA_36
+37,637,CA,Karen Bass,Bass,Democrat,California,45202,275573,6023,326798,CA37,CA_37
+38,638,CA,Linda T. Sánchez,Sánchez,Democrat,California,101867,207000,6806,315673,CA38,CA_38
+39,639,CA,Young Kim,Kim,Republican,California,154439,190090,6803,351332,CA39,CA_39
+241,604,CA,Tom McClintock,McClintock,Republican,California,240834,197122,10861,448817,CA04,CA_4
+40,640,CA,Lucille Roybal-Allard,Roybal-Allard,Democrat,California,41875,156662,4681,203218,CA40,CA_40
+41,641,CA,Mark Takano,Takano,Democrat,California,96428,164574,5805,266807,CA41,CA_41
+245,642,CA,Ken Calvert,Calvert,Republican,California,198259,170481,7209,375949,CA42,CA_42
+42,643,CA,Maxine Waters,Waters,Democrat,California,61138,224694,6251,292083,CA43,CA_43
+43,644,CA,Nanette Diaz Barragan,Barragan,Democrat,California,46174,188767,5781,240722,CA44,CA_44
+44,645,CA,Katie Porter,Porter,Democrat,California,181306,228624,8634,418564,CA45,CA_45
+45,646,CA,J. Luis Correa,Correa,Democrat,California,78247,150186,5074,233507,CA46,CA_46
+46,647,CA,Alan S. Lowenthal,Lowenthal,Democrat,California,115161,203636,7289,326086,CA47,CA_47
+47,648,CA,Michelle Steel,Steel,Republican,California,193832,199791,8136,401759,CA48,CA_48
+48,649,CA,Mike Levin,Levin,Democrat,California,167049,217061,8956,393066,CA49,CA_49
+8,605,CA,Mike Thompson,Thompson,Democrat,California,92093,264115,8416,364624,CA05,CA_5
+246,650,CA,Darrell Issa,Issa,Republican,California,195430,166841,8617,370888,CA50,CA_50
+49,651,CA,Juan Vargas,Vargas,Democrat,California,76703,166289,5696,248688,CA51,CA_51
+50,652,CA,Scott H. Peters,Peters,Democrat,California,139172,257923,9925,407020,CA52,CA_52
+51,653,CA,Sara Jacobs,Jacobs,Democrat,California,119398,258866,8474,386738,CA53,CA_53
+9,606,CA,Doris O. Matsui,Matsui,Democrat,California,87284,225218,8141,320643,CA06,CA_6
+10,607,CA,Ami Bera,Bera,Democrat,California,164052,218137,9883,392072,CA07,CA_7
+242,608,CA,Jay Obernolte,Obernolte,Republican,California,158451,127769,6949,293169,CA08,CA_8
+11,609,CA,Jerry McNerney,McNerney,Democrat,California,124081,180069,6784,310934,CA09,CA_9
+52,801,CO,Diana DeGette,DeGette,Democrat,Colorado,104864,358355,11142,474361,CO01,CO_1
+53,802,CO,Joe Neguse,Neguse,Democrat,Colorado,178533,338297,11307,528137,CO02,CO_2
+247,803,CO,Lauren Boebert,Boebert,Republican,Colorado,224996,200886,10339,436221,CO03,CO_3
+248,804,CO,Ken Buck,Buck,Republican,Colorado,276309,198971,13323,488603,CO04,CO_4
+249,805,CO,Doug Lamborn,Lamborn,Republican,Colorado,244530,186346,15860,446736,CO05,CO_5
+54,806,CO,Jason A. Crow,Crow,Democrat,Colorado,175729,260642,11706,448077,CO06,CO_6
+55,807,CO,Ed Perlmutter,Perlmutter,Democrat,Colorado,163104,263442,12765,439311,CO07,CO_7
+56,901,CT,John B. Larson,Larson,Democrat,Connecticut,127803,229220,5486,362509,CT01,CT_1
+57,902,CT,Joe Courtney,Courtney,Democrat,Connecticut,164461,205779,7703,377943,CT02,CT_2
+58,903,CT,Rosa L. DeLauro,DeLauro,Democrat,Connecticut,137580,212317,4576,354473,CT03,CT_3
+59,904,CT,James A. Himes,Himes,Democrat,Connecticut,127566,237245,5128,369939,CT04,CT_4
+60,905,CT,Jahana Hayes,Hayes,Democrat,Connecticut,157881,196119,5416,359416,CT05,CT_5
+61,1000,DE,Lisa Blunt Rochester,Rochester,Democrat,Delaware,200603,296268,7139,504010,DE00,DE_At-Large
+62,1198,DC,Eleanor Holmes Norton,Norton,Democrat,Washington D.C.,18586,317323,8447,344356,DC98,District_of_Columbia
+250,1201,FL,Matt Gaetz,Gaetz,Republican,Florida,292048,143657,7503,443208,FL01,FL_1
+66,1210,FL,Val Butler Demings,Demings,Democrat,Florida,141377,236868,4674,382919,FL10,FL_10
+256,1211,FL,Daniel Webster,Webster,Republican,Florida,318054,164285,3816,486155,FL11,FL_11
+257,1212,FL,Gus M. Bilirakis,Bilirakis,Republican,Florida,266291,188631,5230,460152,FL12,FL_12
+67,1213,FL,Charlie Crist,Crist,Democrat,Florida,194721,211530,5642,411893,FL13,FL_13
+68,1214,FL,Kathy Castor,Castor,Democrat,Florida,158027,217177,5491,380695,FL14,FL_14
+258,1215,FL,Scott Franklin,Franklin,Republican,Florida,213736,179792,5616,399144,FL15,FL_15
+259,1216,FL,Vern Buchanan,Buchanan,Republican,Florida,262840,223366,5090,491296,FL16,FL_16
+260,1217,FL,W. Gregory Steube,Steube,Republican,Florida,271177,155036,3576,429789,FL17,FL_17
+261,1218,FL,Brian J. Mast,Mast,Republican,Florida,244704,206388,3445,454537,FL18,FL_18
+262,1219,FL,Byron Donalds,Donalds,Republican,Florida,276165,182108,3541,461814,FL19,FL_19
+251,1202,FL,Neil P. Dunn,Dunn,Republican,Florida,263189,125993,4023,393205,FL02,FL_2
+69,1220,FL,Alcee L. Hastings,Hastings,Democrat,Florida,72815,254658,2519,329992,FL20,FL_20
+70,1221,FL,Lois Frankel,Frankel,Democrat,Florida,168216,237825,3228,409269,FL21,FL_21
+71,1222,FL,Theodore E. Deutch,Deutch,Democrat,Florida,171057,229644,3122,403823,FL22,FL_22
+72,1223,FL,Debbie Wasserman Schultz,Schultz,Democrat,Florida,157621,224942,3015,385578,FL23,FL_23
+73,1224,FL,Frederica S. Wilson,Wilson,Democrat,Florida,71108,224408,2338,297854,FL24,FL_24
+263,1225,FL,Mario Diaz-Balart,Diaz-Balart,Republican,Florida,190679,118903,2128,311710,FL25,FL_25
+264,1226,FL,Carlos Gimenez,Gimenez,Republican,Florida,184019,164356,2643,351018,FL26,FL_26
+74,1227,FL,Maria Elvira Salazar,Salazar,Republican,Florida,167420,178642,2702,348764,FL27,FL_27
+252,1203,FL,Kat Cammack,Cammack,Republican,Florida,223087,170433,4935,398455,FL03,FL_3
+253,1204,FL,John H. Rutherford,Rutherford,Republican,Florida,306018,198489,7610,512117,FL04,FL_4
+63,1205,FL,"Al Lawson, Jr.",Lawson,Democrat,Florida,123621,215161,4688,343470,FL05,FL_5
+254,1206,FL,Mike Waltz,Waltz,Republican,Florida,263617,184593,4296,452506,FL06,FL_6
+64,1207,FL,Stephanie N. Murphy,Murphy,Democrat,Florida,183414,226505,5555,415474,FL07,FL_7
+255,1208,FL,Bill Posey,Posey,Republican,Florida,272109,189808,5199,467116,FL08,FL_8
+65,1209,FL,Darren Soto,Soto,Democrat,Florida,201924,232318,4912,439154,FL09,FL_9
+265,1301,GA,Earl L. “Buddy” Carter,Carter,Republican,Georgia,184821,143607,4492,332920,GA01,GA_1
+269,1310,GA,Jody B. Hice,Hice,Republican,Georgia,230785,151614,4824,387223,GA10,GA_10
+270,1311,GA,Barry Loudermilk,Loudermilk,Republican,Georgia,234956,171688,6644,413288,GA11,GA_11
+271,1312,GA,Rick W. Allen,Allen,Republican,Georgia,177097,136635,3805,317537,GA12,GA_12
+80,1313,GA,David Scott,Scott,Democrat,Georgia,85815,277573,3861,367249,GA13,GA_13
+272,1314,GA,Marjorie Taylor Greene,Greene,Republican,Georgia,235208,81060,4008,320276,GA14,GA_14
+75,1302,GA,Sanford D. Bishop Jr.,Bishop,Democrat,Georgia,120713,155087,2361,278161,GA02,GA_2
+266,1303,GA,A. Drew Ferguson IV,Ferguson,Republican,Georgia,235907,140164,4667,380738,GA03,GA_3
+76,1304,GA,Henry C. “Hank” Johnson Jr.,Johnson,Democrat,Georgia,72374,281769,3591,357734,GA04,GA_4
+77,1305,GA,Nikema Williams,Williams,Democrat,Georgia,45867,313230,4154,363251,GA05,GA_5
+78,1306,GA,Lucy McBath,McBath,Democrat,Georgia,175203,220636,6191,402030,GA06,GA_6
+79,1307,GA,Carolyn Bourdeaux,Bourdeaux,Democrat,Georgia,175253,199035,5401,379689,GA07,GA_7
+267,1308,GA,Austin Scott,Scott,Republican,Georgia,195888,116946,3334,316168,GA08,GA_8
+268,1309,GA,Andrew Clyde,Clyde,Republican,Georgia,291950,85463,4805,382218,GA09,GA_9
+81,1501,HI,Ed Case,Case,Democrat,Hawaii,96986,179411,4703,281100,HI01,HI_1
+82,1502,HI,Kai Kahele,Kahele,Democrat,Hawaii,99814,186659,6786,293259,HI02,HI_2
+288,1901,IA,Ashley Hinson,Hinson,Republican,Iowa,213601,199259,8736,421596,IA01,IA_1
+289,1902,IA,Mariannette Miller-Meeks,Miller-Meeks,Republican,Iowa,209858,193437,8410,411705,IA02,IA_2
+290,1903,IA,Cindy Axne,Axne,Democrat,Iowa,224726,224159,9611,458496,IA03,IA_3
+291,1904,IA,Randy Feenstra,Feenstra,Republican,Iowa,249487,142206,7381,399074,IA04,IA_4
+29104,1904,IA,Randy Feenstra,Feenstra,Republican,Iowa,249487,142206,7381,399074,IA04,IA_5
+273,1601,ID,Russ Fulcher,Fulcher,Republican,Idaho,313559,140452,13546,467557,ID01,ID_1
+274,1602,ID,Michael K. Simpson,Simpson,Republican,Idaho,240560,146569,13651,400780,ID02,ID_2
+83,1701,IL,Bobby L. Rush,Rush,Democrat,Illinois,85028,246954,4855,336837,IL01,IL_1
+92,1710,IL,Bradley Scott Schneider,Schneider,Democrat,Illinois,110582,207379,5687,323648,IL10,IL_10
+93,1711,IL,Bill Foster,Foster,Democrat,Illinois,115078,195555,6247,316880,IL11,IL_11
+275,1712,IL,Mike Bost,Bost,Republican,Illinois,184811,137911,6481,329203,IL12,IL_12
+276,1713,IL,Rodney Davis,Davis,Republican,Illinois,170480,158871,8318,337669,IL13,IL_13
+94,1714,IL,Lauren Underwood,Underwood,Democrat,Illinois,195286,203744,8428,407458,IL14,IL_14
+277,1715,IL,Mary Miller,Miller,Republican,Illinois,246927,88670,6322,341919,IL15,IL_15
+278,1716,IL,Adam Kinzinger,Kinzinger,Republican,Illinois,197197,140938,7477,345612,IL16,IL_16
+279,1717,IL,Cheri Bustos,Bustos,Democrat,Illinois,151009,146349,5723,303081,IL17,IL_17
+280,1718,IL,Darin LaHood,LaHood,Republican,Illinois,218172,146098,5945,370215,IL18,IL_18
+28040,1718,IL,Darin LaHood,LaHood,Republican,Illinois,218172,146098,5945,370215,IL18,IL_19
+84,1702,IL,Robin L. Kelly,Kelly,Democrat,Illinois,65329,236640,4080,306049,IL02,IL_2
+85,1703,IL,DMarie Newman,Newman,Democrat,Illinois,138158,175934,5293,319385,IL03,IL_3
+86,1704,IL,Jesús G. Garcia,Garcia,Democrat,Illinois,43898,184645,4825,233368,IL04,IL_4
+87,1705,IL,Mike Quigley,Quigley,Democrat,Illinois,101619,267680,7178,376477,IL05,IL_5
+88,1706,IL,Sean Casten,Casten,Democrat,Illinois,176221,226804,8802,411827,IL06,IL_6
+89,1707,IL,Danny K. Davis,Davis,Democrat,Illinois,41975,274291,5282,321548,IL07,IL_7
+90,1708,IL,Raja Krishnamoorthi,Krishnamoorthi,Democrat,Illinois,115348,171840,5501,292689,IL08,IL_8
+91,1709,IL,Janice D. Schakowsky,Schakowsky,Democrat,Illinois,107388,269568,6380,383336,IL09,IL_9
+95,1801,IN,Frank J. Mrvan,Mrvan,Democrat,Indiana,147926,177424,6241,331591,IN01,IN_1
+281,1802,IN,Jackie Walorski,Walorski,Republican,Indiana,179007,116992,5115,301114,IN02,IN_2
+282,1803,IN,Jim Banks,Banks,Republican,Indiana,211169,112346,7545,331060,IN03,IN_3
+283,1804,IN,James R. Baird,Baird,Republican,Indiana,219424,117151,7897,344472,IN04,IN_4
+284,1805,IN,Victoria Spartz,Spartz,Republican,Indiana,210257,200457,8673,419387,IN05,IN_5
+285,1806,IN,Greg Pence,Pence,Republican,Indiana,231540,96000,4053,331593,IN06,IN_6
+96,1807,IN,André Carson,Carson,Democrat,Indiana,99811,177925,5589,283325,IN07,IN_7
+286,1808,IN,Larry Bucshon,Bucshon,Republican,Indiana,212167,108018,6116,326301,IN08,IN_8
+287,1809,IN,Trey Hollingsworth,Hollingsworth,Republican,Indiana,218208,136088,10300,364596,IN09,IN_9
+292,2001,KS,Tracy Mann,Mann,Republican,Kansas,207727,83890,6513,298130,KS01,KS_1
+293,2002,KS,Jake LaTurner,LaTurner,Republican,Kansas,191030,140303,8024,339357,KS02,KS_2
+97,2003,KS,Sharice Davids,Davids,Democrat,Kansas,179583,223114,8542,411239,KS03,KS_3
+294,2004,KS,Ron Estes,Estes,Republican,Kansas,193066,123016,7495,323577,KS04,KS_4
+295,2101,KY,James Comer,Comer,Republican,Kentucky,244122,85228,4830,334180,KY01,KY_1
+296,2102,KY,Brett Guthrie,Guthrie,Republican,Kentucky,246865,111859,6584,365308,KY02,KY_2
+98,2103,KY,John A. Yarmuth,Yarmuth,Democrat,Kentucky,141027,221843,7300,370170,KY03,KY_3
+297,2104,KY,Thomas Massie,Massie,Republican,Kentucky,250481,129335,7313,387129,KY04,KY_4
+298,2105,KY,Harold Rogers,Rogers,Republican,Kentucky,241712,56153,3806,301671,KY05,KY_5
+299,2106,KY,Andy Barr,Barr,Republican,Kentucky,202439,168056,7764,378259,KY06,KY_6
+300,2201,LA,Steve Scalise,Scalise,Republican,Louisiana,266348,119830,7490,393668,LA01,LA_1
+99,2202,LA, , ,Democrat,Louisiana,80094,258112,5082,343288,LA02,LA_2
+301,2203,LA,Clay Higgins,Higgins,Republican,Louisiana,242734,107458,6131,356323,LA03,LA_3
+302,2204,LA,Mike Johnson,Johnson,Republican,Louisiana,202016,121380,4974,328370,LA04,LA_4
+303,2205,LA, , ,Republican,Louisiana,214686,113525,4927,333138,LA05,LA_5
+304,2206,LA,Garret Graves,Graves,Republican,Louisiana,249898,135729,7526,393153,LA06,LA_6
+30440,2206,LA,Garret Graves,Graves,Republican,Louisiana,249898,135729,7526,393153,LA06,LA_7
+108,2501,MA,Richard E. Neal,Neal,Democrat,Massachusetts,135655,224939,8630,369224,MA01,MA_1
+109,2502,MA,James P. McGovern,McGovern,Democrat,Massachusetts,140377,240547,10314,391238,MA02,MA_2
+110,2503,MA,Lori Trahan,Trahan,Democrat,Massachusetts,132757,243303,9539,385599,MA03,MA_3
+111,2504,MA,Jake Auchincloss,Auchincloss,Democrat,Massachusetts,144654,276820,9957,431431,MA04,MA_4
+112,2505,MA,Katherine M. Clark,Clark,Democrat,Massachusetts,97562,304072,8843,410477,MA05,MA_5
+113,2506,MA,Seth Moulton,Moulton,Democrat,Massachusetts,159252,279782,9959,448993,MA06,MA_6
+114,2507,MA,Ayanna Pressley,Pressley,Democrat,Massachusetts,43074,276091,5938,325103,MA07,MA_7
+115,2508,MA,Stephen F. Lynch,Lynch,Democrat,Massachusetts,137738,283426,9396,430560,MA08,MA_8
+116,2509,MA,William R. Keating,Keating,Democrat,Massachusetts,176133,253222,9422,438777,MA09,MA_9
+11640,2509,MA,William R. Keating,Keating,Democrat,Massachusetts,176133,253222,9422,438777,MA10,MA_10
+306,2401,MD,Andy Harris,Harris,Republican,Maryland,236906,157430,10873,405209,MD01,MD_1
+101,2402,MD,C. A. Dutch Ruppersberger,Ruppersberger,Democrat,Maryland,110901,225433,8244,344578,MD02,MD_2
+102,2403,MD,John P. Sarbanes,Sarbanes,Democrat,Maryland,112328,263027,10389,385744,MD03,MD_3
+103,2404,MD,Anthony G. Brown,Brown,Democrat,Maryland,69533,286724,8443,364700,MD04,MD_4
+104,2405,MD,Steny H. Hoyer,Hoyer,Democrat,Maryland,119771,276896,9339,406006,MD05,MD_5
+105,2406,MD,David Trone,Trone,Democrat,Maryland,140735,227214,9481,377430,MD06,MD_6
+106,2407,MD,Kweisi Mfume,Mfume,Democrat,Maryland,66703,261237,7842,335782,MD07,MD_7
+107,2408,MD,Jamie Raskin,Raskin,Democrat,Maryland,119537,287062,10983,417582,MD08,MD_8
+100,2301,ME,Chellie Pingree,Pingree,Democrat,Maine,164045,266376,12691,443112,ME01,ME_1
+305,2302,ME,Jared F. Golden,Golden,Democrat,Maine,196692,168696,10961,376349,ME02,ME_2
+307,2601,MI,Jack Bergman,Bergman,Republican,Michigan,244455,171402,6554,422411,MI01,MI_1
+314,2610,MI,Lisa McClain,McClain,Republican,Michigan,273871,146887,5704,426462,MI10,MI_10
+119,2611,MI,Haley Stevens,Stevens,Democrat,Michigan,216799,237696,6248,460743,MI11,MI_11
+120,2612,MI,Debbie Dingell,Dingell,Democrat,Michigan,134892,251770,5417,392079,MI12,MI_12
+121,2613,MI,Rashida Tlaib,Tlaib,Democrat,Michigan,58162,229535,3435,291132,MI13,MI_13
+122,2614,MI,Brenda L. Lawrence,Peters,Democrat,Michigan,68031,276847,3167,348045,MI14,MI_14
+12240,2614,MI,Brenda L. Lawrence,Peters,Democrat,Michigan,68031,276847,3167,348045,MI14,MI_15
+308,2602,MI,Bill Huizenga,Huizenga,Republican,Michigan,225408,177044,7418,409870,MI02,MI_2
+309,2603,MI,Peter Meijer,Meijer,Republican,Michigan,207762,194575,7882,410219,MI03,MI_3
+310,2604,MI,John R. Moolenaar,Moolenaar,Republican,Michigan,234439,142631,6438,383508,MI04,MI_4
+117,2605,MI,Daniel T. Kildee,Kildee,Democrat,Michigan,173212,189227,5416,367855,MI05,MI_5
+311,2606,MI,Fred Upton,Upton,Republican,Michigan,197508,180142,7105,384755,MI06,MI_6
+312,2607,MI,Tim Walberg,Walberg,Republican,Michigan,224583,164941,6768,396292,MI07,MI_7
+313,2608,MI,Elissa Slotkin,Slotkin,Democrat,Michigan,215649,212085,7004,434738,MI08,MI_8
+118,2609,MI,Andy Levin,Levin,Democrat,Michigan,175081,229258,5764,410103,MI09,MI_9
+315,2701,MN,Jim Hagedorn,Hagedorn,Republican,Minnesota,202121,164139,8904,375164,MN01,MN_1
+123,2702,MN,Angie Craig,Craig,Democrat,Minnesota,197004,226589,10622,434215,MN02,MN_2
+124,2703,MN,Dean Phillips,Phillips,Democrat,Minnesota,178214,265537,10393,454144,MN03,MN_3
+125,2704,MN,Betty McCollum,McCollum,Democrat,Minnesota,123300,273204,9474,405978,MN04,MN_4
+126,2705,MN,Ilhan Omar,Omar,Democrat,Minnesota,72323,328764,9788,410875,MN05,MN_5
+316,2706,MN,Tom Emmer,Emmer,Republican,Minnesota,251056,165370,10421,426847,MN06,MN_6
+317,2707,MN,Michelle Fischbach,Fischbach,Republican,Minnesota,234753,126528,7667,368948,MN07,MN_7
+318,2708,MN,Pete Stauber,Stauber,Republican,Minnesota,225291,166939,8762,400992,MN08,MN_8
+128,2901,MO,Cori Bush,Bush,Democrat,Missouri,57522,254122,6265,317909,MO01,MO_1
+322,2902,MO,Ann Wagner,Wagner,Republican,Missouri,223991,220318,8841,453150,MO02,MO_2
+323,2903,MO,Blaine Luetkemeyer,Luetkemeyer,Republican,Missouri,275741,129115,8149,413005,MO03,MO_3
+324,2904,MO,Vicky Hartzler,Hartzler,Republican,Missouri,243733,117921,8173,369827,MO04,MO_4
+129,2905,MO,Emanuel Cleaver,Cleaver,Democrat,Missouri,142648,206288,8038,356974,MO05,MO_5
+325,2906,MO,Sam Graves,Graves,Republican,Missouri,247238,138964,7220,393422,MO06,MO_6
+326,2907,MO,Billy Long,Long,Republican,Missouri,260930,103924,7838,372692,MO07,MO_7
+327,2908,MO,Jason Smith,Smith,Republican,Missouri,260651,72321,4952,337924,MO08,MO_8
+32720,2908,MO,Jason Smith,Smith,Republican,Missouri,260651,72321,4952,337924,MO08,MO_9
+319,2801,MS,Trent Kelly,Kelly,Republican,Mississippi,222287,115883,4957,343127,MS01,MS_1
+127,2802,MS,Bennie G. Thompson,Thompson,Democrat,Mississippi,105474,191701,3501,300676,MS02,MS_2
+320,2803,MS,Michael Guest,Guest,Republican,Mississippi,210914,135179,4421,350514,MS03,MS_3
+321,2804,MS,Steven M. Palazzo,Palazzo,Republican,Mississippi,218056,96731,4687,319474,MS04,MS_4
+328,3000,MT,Matt Rosendale,Rosendale,Republican,Montana,343602,244786,15286,603674,MT00,MT_At-Large
+167,3701,NC,G. K. Butterfield,Butterfield,Democrat,North Carolina,160225,190636,2898,353759,NC01,NC_1
+348,3710,NC,Patrick T. McHenry,McHenry,Republican,North Carolina,283446,130911,4624,418981,NC10,NC_10
+349,3711,NC,Madison Cawthorn,Cawthorn,Republican,North Carolina,252075,197059,5948,455082,NC11,NC_11
+171,3712,NC,Alma S. Adams,Adams,Democrat,North Carolina,126477,316999,6214,449690,NC12,NC_12
+350,3713,NC,Ted Budd,Budd,Republican,North Carolina,266419,127555,4531,398505,NC13,NC_13
+168,3702,NC,Deborah K. Ross,Ross,Democrat,North Carolina,172408,327277,8133,507818,NC02,NC_2
+343,3703,NC,Gregory F. Murphy,Murphy,Republican,North Carolina,226647,140468,5152,372267,NC03,NC_3
+169,3704,NC,David E. Price,Price,Democrat,North Carolina,159083,326921,6264,492268,NC04,NC_4
+344,3705,NC,Virginia Foxx,Foxx,Republican,North Carolina,266629,124924,4103,395656,NC05,NC_5
+170,3706,NC,Kathy Manning,Manning,Democrat,North Carolina,155373,257242,5095,417710,NC06,NC_6
+345,3707,NC,David Rouzer,Rouzer,Republican,North Carolina,266887,189064,5567,461518,NC07,NC_7
+346,3708,NC,Richard Hudson,Hudson,Republican,North Carolina,207285,178219,5335,390839,NC08,NC_8
+347,3709,NC,Dan Bishop,Bishop,Republican,North Carolina,214159,176512,4543,395214,NC09,NC_9
+351,3800,ND,Kelly Armstrong,Armstrong,Republican,North Dakota,235595,114902,11322,361819,ND00,ND_At-Large
+329,3101,NE,Jeff Fortenberry,Fortenberry,Republican,Nebraska,180290,132261,9335,321886,NE01,NE_1
+130,3102,NE,Don Bacon,Bacon,Republican,Nebraska,154377,176468,8821,339666,NE02,NE_2
+330,3103,NE,Adrian Smith,Smith,Republican,Nebraska,222179,65854,6798,294831,NE03,NE_3
+134,3301,NH,Chris Pappas,Pappas,Democrat,New Hampshire,188999,213662,6863,409524,NH01,NH_1
+135,3302,NH,Ann M. Kuster,Kuster,Democrat,New Hampshire,176655,211259,6900,394814,NH02,NH_2
+136,3401,NJ,Donald Norcross,Norcross,Democrat,New Jersey,142821,242185,6734,391740,NJ01,NJ_1
+142,3410,NJ,Donald M. Payne Jr.,Payne,Democrat,New Jersey,45312,254721,2848,302881,NJ10,NJ_10
+143,3411,NJ,Mikie Sherrill,Sherrill,Democrat,New Jersey,208009,237919,7627,453555,NJ11,NJ_11
+144,3412,NJ,Bonnie Watson Coleman,Coleman,Democrat,New Jersey,113426,242782,6014,362222,NJ12,NJ_12
+14440,3412,NJ,Bonnie Watson Coleman,Coleman,Democrat,New Jersey,113426,242782,6014,362222,NJ12,NJ_13
+332,3402,NJ,Jeff Van Drew,Drew,Democrat,New Jersey,192184,181602,5839,379625,NJ02,NJ_2
+333,3403,NJ,Andy Kim,Kim,Democrat,New Jersey,218016,217223,7262,442501,NJ03,NJ_3
+334,3404,NJ,Christopher H. Smith,Smith,Republican,New Jersey,236896,191273,6115,434284,NJ04,NJ_4
+137,3405,NJ,Josh S. Gottheimer,Gottheimer,Democrat,New Jersey,202253,225231,8176,435660,NJ05,NJ_5
+138,3406,NJ,Frank Pallone Jr.,Pallone,Democrat,New Jersey,139170,191859,5051,336080,NJ06,NJ_6
+139,3407,NJ,Tom Malinowski,Malinowski,Democrat,New Jersey,195246,239104,9380,443730,NJ07,NJ_7
+140,3408,NJ,Albio Sires,Sires,Democrat,New Jersey,69201,182963,3150,255314,NJ08,NJ_8
+141,3409,NJ,Bill Pascrell Jr.,Pascrell,Democrat,New Jersey,118533,199644,4184,322361,NJ09,NJ_9
+145,3501,NM, , ,Democrat,New Mexico,122226,195608,7544,325378,NM01,NM_1
+335,3502,NM,Yvette Herrell,Herrell,Republican,New Mexico,148487,116315,5418,270220,NM02,NM_2
+146,3503,NM,Teresa Leger Fernandez,Fernandez,Democrat,New Mexico,130955,187927,5658,324540,NM03,NM_3
+131,3201,NV,Dina Titus,Titus,Democrat,Nevada,84964,143410,4960,233334,NV01,NV_1
+331,3202,NV,Mark E. Amodei,Amodei,Republican,Nevada,210255,171024,11338,392617,NV02,NV_2
+132,3203,NV,Susie Lee,Lee,Democrat,Nevada,213257,214147,8366,435770,NV03,NV_3
+133,3204,NV,Steven Horsford,Horsford,Democrat,Nevada,161358,174857,7398,343613,NV04,NV_4
+336,3601,NY,Lee M. Zeldin,Zeldin,Republican,New York,198826,182793,4710,386329,NY01,NY_1
+154,3610,NY,Jerrold Nadler,Nadler,Democrat,New York,65611,218141,2775,286527,NY10,NY_10
+338,3611,NY,Nicole Malliotakis,Malliotakis,Republican,New York,163857,132366,2640,298863,NY11,NY_11
+155,3612,NY,Carolyn B. Maloney,Maloney,Democrat,New York,49337,280012,3471,332820,NY12,NY_12
+156,3613,NY,Adriano Espaillat,Espaillat,Democrat,New York,29526,233234,2112,264872,NY13,NY_13
+157,3614,NY,Alexandria Ocasio-Cortez,Ocasio-Cortez,Democrat,New York,57174,161973,1835,220982,NY14,NY_14
+158,3615,NY,Ritchie Torres,Torres,Democrat,New York,25855,171328,1015,198198,NY15,NY_15
+159,3616,NY,Jamaal Bowman,Bowman,Democrat,New York,73665,232782,2723,309170,NY16,NY_16
+160,3617,NY,Mondaire Jones,Jones,Democrat,New York,140332,212254,3617,356203,NY17,NY_17
+161,3618,NY,Sean Patrick Maloney,Maloney,Democrat,New York,166448,184181,5087,355716,NY18,NY_18
+162,3619,NY,Antonio Delgado,Delgado,Democrat,New York,177569,182965,6948,367482,NY19,NY_19
+337,3602,NY,Andrew Garbarino,Garbarino,Republican,New York,183204,168779,4141,356124,NY02,NY_2
+163,3620,NY,Paul Tonko,Tonko,Democrat,New York,141619,217340,7423,366382,NY20,NY_20
+339,3621,NY,Elise M. Stefanik,Stefanik,Republican,New York,175345,141679,6252,323276,NY21,NY_21
+340,3622,NY, , ,Republican,New York,176465,139592,6727,322784,NY22,NY_22
+341,3623,NY,Tom Reed,Reed,Republican,New York,175243,139037,6996,321276,NY23,NY_23
+164,3624,NY,John Katko,Katko,Republican,New York,155222,186983,7756,349961,NY24,NY_24
+165,3625,NY,Joseph D. Morelle,Morelle,Democrat,New York,137342,218504,7759,363605,NY25,NY_25
+166,3626,NY,Brian Higgins,Higgins,Democrat,New York,119410,209957,5889,335256,NY26,NY_26
+342,3627,NY,Chris Jacobs,Jacobs,Republican,New York,224305,162337,8169,394811,NY27,NY_27
+34240,3627,NY,Chris Jacobs,Jacobs,Republican,New York,224305,162337,8169,394811,NY28,NY_28
+34241,3627,NY,Chris Jacobs,Jacobs,Republican,New York,224305,162337,8169,394811,NY29,NY_29
+147,3603,NY,Thomas R. Suozzi,Suozzi,Democrat,New York,175089,216247,4100,395436,NY03,NY_3
+148,3604,NY,Kathleen M. Rice,Rice,Democrat,New York,165073,211700,3924,380697,NY04,NY_4
+149,3605,NY,Gregory W. Meeks,Meeks,Democrat,New York,44495,229459,1554,275508,NY05,NY_5
+150,3606,NY,Grace Meng,Meng,Democrat,New York,92371,152725,2159,247255,NY06,NY_6
+151,3607,NY,Nydia M. Velázquez,Velázquez,Democrat,New York,40366,190811,2044,233221,NY07,NY_7
+152,3608,NY,Hakeem S. Jeffries,Jeffries,Democrat,New York,46711,234960,1883,283554,NY08,NY_8
+153,3609,NY,Yvette D. Clarke,Clarke,Democrat,New York,50873,232347,2130,285350,NY09,NY_9
+352,3901,OH,Steve Chabot,Chabot,Republican,Ohio,198433,185947,5846,390226,OH01,OH_1
+359,3910,OH,Michael R. Turner,Turner,Republican,Ohio,188673,172471,6158,367302,OH10,OH_10
+174,3911,OH, , ,Democrat,Ohio,60902,252725,3178,316805,OH11,OH_11
+360,3912,OH,Troy Balderson,Balderson,Republican,Ohio,232901,206386,6885,446172,OH12,OH_12
+175,3913,OH,Tim Ryan,Ryan,Democrat,Ohio,159938,171245,4713,335896,OH13,OH_13
+361,3914,OH,David P. Joyce,Joyce,Republican,Ohio,222983,185689,5169,413841,OH14,OH_14
+362,3915,OH,Steve Stivers,Stivers,Republican,Ohio,221898,166098,5953,393949,OH15,OH_15
+363,3916,OH,Anthony Gonzalez,Gonzalez,Republican,Ohio,232207,173685,5247,411139,OH16,OH_16
+363,3916,OH,Anthony Gonzalez,Gonzalez,Republican,Ohio,232207,173685,5247,411139,OH17,OH_17
+36340,3916,OH,Anthony Gonzalez,Gonzalez,Republican,Ohio,232207,173685,5247,411139,OH18,OH_18
+353,3902,OH,Brad R. Wenstrup,Wenstrup,Republican,Ohio,214600,165593,5723,385916,OH02,OH_2
+172,3903,OH,Joyce Beatty,Beatty,Democrat,Ohio,93890,231278,5326,330494,OH03,OH_3
+354,3904,OH,Jim Jordan,Jordan,Republican,Ohio,237144,110336,5793,353273,OH04,OH_4
+355,3905,OH,Robert E. Latta,Latta,Republican,Ohio,237762,141528,6584,385874,OH05,OH_5
+356,3906,OH,Bill Johnson,Johnson,Republican,Ohio,248554,91296,4389,344239,OH06,OH_6
+357,3907,OH,Bob Gibbs,Gibbs,Republican,Ohio,237313,120706,5338,363357,OH07,OH_7
+358,3908,OH,Warren Davidson,Davidson,Republican,Ohio,243068,119846,5443,368357,OH08,OH_8
+173,3909,OH,Marcy Kaptur,Kaptur,Democrat,Ohio,124569,184337,4634,313540,OH09,OH_9
+364,4001,OK,Kevin Hern,Hern,Republican,Oklahoma,202879,125905,8711,337495,OK01,OK_1
+365,4002,OK,Markwayne Mullin,Mullin,Republican,Oklahoma,221123,64353,5099,290575,OK02,OK_2
+366,4003,OK,Frank D. Lucas,Lucas,Republican,Oklahoma,232416,72141,7068,311625,OK03,OK_3
+367,4004,OK,Tom Cole,Cole,Republican,Oklahoma,208407,102925,8140,319472,OK04,OK_4
+368,4005,OK,Stephanie Bice,Bice,Republican,Oklahoma,155455,138566,7511,301532,OK05,OK_5
+176,4101,OR,Suzanne Bonamici,Bonamici,Democrat,Oregon,160808,298753,16602,476163,OR01,OR_1
+369,4102,OR,Cliff Bentz,Bentz,Republican,Oregon,261602,197922,13673,473197,OR02,OR_2
+177,4103,OR,Earl Blumenauer,Blumenauer,Democrat,Oregon,112555,356659,14239,483453,OR03,OR_3
+178,4104,OR,Peter A. DeFazio,DeFazio,Democrat,Oregon,219851,238619,15764,474234,OR04,OR_4
+179,4105,OR,Kurt Schrader,Schrader,Democrat,Oregon,203631,248430,15212,467273,OR05,OR_5
+180,4201,PA,Brian Fitzpatrick,Fitzpatrick,Republican,Pennsylvania,207433,233446,4687,445566,PA01,PA_1
+372,4210,PA,Scott Perry,Perry,Republican,Pennsylvania,199207,188308,6595,394110,PA10,PA_10
+373,4211,PA,Lloyd Smucker,Smucker,Republican,Pennsylvania,233073,148521,6119,387713,PA11,PA_11
+374,4212,PA,Fred Keller,Keller,Republican,Pennsylvania,232289,107863,5283,345435,PA12,PA_12
+375,4213,PA,John Joyce,Joyce,Republican,Pennsylvania,266382,101991,4667,373040,PA13,PA_13
+376,4214,PA,Guy Reschenthaler,Reschenthaler,Republican,Pennsylvania,240182,135799,4484,380465,PA14,PA_14
+377,4215,PA,Glenn Thompson,Thompson,Republican,Pennsylvania,250188,96658,4851,351697,PA15,PA_15
+378,4216,PA,Mike Kelly,Kelly,Republican,Pennsylvania,212103,144530,4943,361576,PA16,PA_16
+187,4217,PA,Conor Lamb,Lamb,Democrat,Pennsylvania,209491,221394,6729,437614,PA17,PA_17
+188,4218,PA,Michael F. Doyle,Doyle,Democrat,Pennsylvania,134830,252857,5849,393536,PA18,PA_18
+18840,4218,PA,Michael F. Doyle,Doyle,Democrat,Pennsylvania,134830,252857,5849,393536,PA19,PA_19
+181,4202,PA,Brendan Boyle,Boyle,Democrat,Pennsylvania,86047,207155,2897,296099,PA02,PA_2
+182,4203,PA,Dwight Evans,Evans,Democrat,Pennsylvania,31693,356349,3614,391656,PA03,PA_3
+183,4204,PA,Madeleine Dean,Dean,Democrat,Pennsylvania,168203,276497,4703,449403,PA04,PA_4
+184,4205,PA,Mary Gay Scanlon,Scanlon,Democrat,Pennsylvania,137570,263290,3520,404380,PA05,PA_5
+185,4206,PA,Chrissy Houlahan,Houlahan,Democrat,Pennsylvania,170600,232017,5205,407822,PA06,PA_6
+186,4207,PA,Susan Wild,Wild,Democrat,Pennsylvania,180615,199073,4584,384272,PA07,PA_7
+370,4208,PA,Matt Cartwright,Cartwright,Democrat,Pennsylvania,184335,168580,3808,356723,PA08,PA_8
+371,4209,PA,Dan Meuser,Meuser,Republican,Pennsylvania,232092,122509,5316,359917,PA09,PA_9
+189,4401,RI,David N. Cicilline,Cicilline,Democrat,Rhode Island,83607,154430,4773,242810,RI01,RI_1
+190,4402,RI,James R. Langevin,Langevin,Democrat,Rhode Island,116315,153056,5576,274947,RI02,RI_2
+379,4501,SC,Nancy Mace,Mace,Republican,South Carolina,222708,197288,7598,427594,SC01,SC_1
+380,4502,SC,Joe Wilson,Wilson,Republican,South Carolina,200210,158948,5777,364935,SC02,SC_2
+381,4503,SC,Jeff Duncan,Duncan,Republican,South Carolina,228058,102331,4729,335118,SC03,SC_3
+382,4504,SC,William R. Timmons IV,Timmons,Republican,South Carolina,215237,140939,6567,362743,SC04,SC_4
+383,4505,SC,Ralph Norman,Norman,Republican,South Carolina,211989,150853,4917,367759,SC05,SC_5
+191,4506,SC,James E. Clyburn,Clyburn,Democrat,South Carolina,92192,194414,3489,290095,SC06,SC_6
+384,4507,SC,Tom Rice,Rice,Republican,South Carolina,214709,146768,3608,365085,SC07,SC_7
+385,4600,SD,Dusty Johnson,Johnson,Republican,South Dakota,261043,150471,11095,422609,SD00,SD_At-Large
+386,4701,TN,Diana Harshbarger,Harshbarger,Republican,Tennessee,242684,70462,5407,318553,TN01,TN_1
+387,4702,TN,Tim Burchett,Burchett,Republican,Tennessee,228992,124230,6902,360124,TN02,TN_2
+388,4703,TN,Charles J. “Chuck” Fleischmann,Fleischmann,Republican,Tennessee,219242,110460,5892,335594,TN03,TN_3
+389,4704,TN,Scott DesJarlais,DesJarlais,Republican,Tennessee,239420,108746,6428,354594,TN04,TN_4
+192,4705,TN,Jim Cooper,Cooper,Democrat,Tennessee,127525,209961,10372,347858,TN05,TN_5
+390,4706,TN,John W. Rose,Rose,Republican,Tennessee,273647,96366,6457,376470,TN06,TN_6
+391,4707,TN,Mark E. Green,Green,Republican,Tennessee,245870,115156,6556,367582,TN07,TN_7
+392,4708,TN,David Kustoff,Kustoff,Republican,Tennessee,225471,114529,4844,344844,TN08,TN_8
+193,4709,TN,Steve Cohen,Cohen,Democrat,Tennessee,48919,193596,3963,246478,TN09,TN_9
+393,4801,TX,Louie Gohmert,Gohmert,Republican,Texas,219683,83200,3718,306601,TX01,TX_1
+400,4810,TX,Michael T. McCaul,McCaul,Republican,Texas,210815,203922,7031,421768,TX10,TX_10
+401,4811,TX,August Pfluger,Pfluger,Republican,Texas,235070,58487,3656,297213,TX11,TX_11
+402,4812,TX,Kay Granger,Granger,Republican,Texas,224477,140677,6227,371381,TX12,TX_12
+403,4813,TX,Ronny Jackson,Jackson,Republican,Texas,220060,54081,3946,278087,TX13,TX_13
+404,4814,TX,Randy K. Weber Sr.,Weber,Republican,Texas,185961,124630,4417,315008,TX14,TX_14
+196,4815,TX,Vicente Gonzalez,Gonzalez,Democrat,Texas,115200,120031,2725,237956,TX15,TX_15
+197,4816,TX,Veronica Escobar,Escobar,Democrat,Texas,77673,161215,4322,243210,TX16,TX_16
+405,4817,TX,Pete Sessions,Sessions,Republican,Texas,172297,137685,6082,316064,TX17,TX_17
+198,4818,TX,Sheila Jackson Lee,Lee,Democrat,Texas,57669,189823,3348,250840,TX18,TX_18
+406,4819,TX,Jodey C. Arrington,Arrington,Republican,Texas,195938,71250,3992,271180,TX19,TX_19
+394,4802,TX,Daniel Crenshaw,Crenshaw,Republican,Texas,174980,170430,5050,350460,TX02,TX_2
+199,4820,TX,Joaquin Castro,Castro,Democrat,Texas,96914,177548,4971,279433,TX20,TX_20
+407,4821,TX,Chip Roy,Roy,Republican,Texas,232811,220450,8087,461348,TX21,TX_21
+408,4822,TX,Troy Nehis,Nehis,Republican,Texas,210011,206114,6198,422323,TX22,TX_22
+409,4823,TX,Tony Gonzales,Gonzales,Republican,Texas,151578,145969,4321,301868,TX23,TX_23
+200,4824,TX,Beth Van Duyne,Van Duyne,Republican,Texas,161671,180609,5509,347789,TX24,TX_24
+410,4825,TX,Roger Williams,Williams,Republican,Texas,216248,177875,6885,401008,TX25,TX_25
+411,4826,TX,Michael C. Burgess,Burgess,Republican,Texas,248196,185956,7321,441473,TX26,TX_26
+412,4827,TX,Michael Cloud,Cloud,Republican,Texas,170876,104470,3711,279057,TX27,TX_27
+201,4828,TX,Henry Cuellar,Cuellar,Democrat,Texas,115266,125463,3051,243780,TX28,TX_28
+202,4829,TX,Sylvia R. Garcia,Garcia,Democrat,Texas,52937,106229,1916,161082,TX29,TX_29
+395,4803,TX,Van Taylor,Taylor,Republican,Texas,214359,209859,7811,432029,TX03,TX_3
+203,4830,TX,Eddie Bernice Johnson,Johnson,Democrat,Texas,50270,212373,3371,266014,TX30,TX_30
+413,4831,TX,John R. Carter,Carter,Republican,Texas,204096,192599,8512,405207,TX31,TX_31
+204,4832,TX,Colin Z. Allred,Allred,Democrat,Texas,151944,187919,5440,345303,TX32,TX_32
+205,4833,TX,Marc A. Veasey,Veasey,Democrat,Texas,41209,117340,2232,160781,TX33,TX_33
+206,4834,TX,Filemon Vela,Vela,Democrat,Texas,98386,106812,2006,207204,TX34,TX_34
+207,4835,TX,Lloyd Doggett,Doggett,Democrat,Texas,84766,187992,5527,278285,TX35,TX_35
+414,4836,TX,Brian Babin,Babin,Republican,Texas,221600,82881,3712,308193,TX36,TX_36
+396,4804,TX,Pat Fallon,Fallon,Republican,Texas,257487,84709,4284,346480,TX04,TX_4
+397,4805,TX,Lance Gooden,Gooden,Republican,Texas,172395,107494,3470,283359,TX05,TX_5
+398,4806,TX, , ,Republican,Texas,175101,164746,4864,344711,TX06,TX_6
+194,4807,TX,Lizzie Fletcher,Fletcher,Democrat,Texas,143176,170060,4329,317565,TX07,TX_7
+399,4808,TX,Kevin Brady,Brady,Republican,Texas,274224,109291,5213,388728,TX08,TX_8
+195,4809,TX,Al Green,Green,Democrat,Texas,54944,178908,2514,236366,TX09,TX_9
+415,4901,UT,Blake Moore,Moore,Republican,Utah,230315,113344,15161,358820,UT01,UT_1
+416,4902,UT,Chris Stewart,Stewart,Republican,Utah,207621,148903,13597,370121,UT02,UT_2
+417,4903,UT,John R. Curtis,Curtis,Republican,Utah,225831,131844,17014,374689,UT03,UT_3
+418,4904,UT,Burgess Owens,Owens,Republican,Utah,201373,166191,16483,384047,UT04,UT_4
+419,5101,VA,Robert J. Wittman,Wittman,Republican,Virginia,233151,213139,8455,454745,VA01,VA_1
+214,5110,VA,Jennifer Wexton,Wexton,Democrat,Virginia,189314,281722,9720,480756,VA10,VA_10
+215,5111,VA,Gerald E. Connolly,Connolly,Democrat,Virginia,112774,280187,8012,400973,VA11,VA_11
+209,5102,VA,Elaine Luria,Luria,Democrat,Virginia,168746,184886,7883,361515,VA02,VA_2
+210,5103,VA,Robert C. “Bobby” Scott,Scott,Democrat,Virginia,107942,230143,6629,344714,VA03,VA_3
+211,5104,VA,A. Donald McEachin,McEachin,Democrat,Virginia,146803,245932,6784,399519,VA04,VA_4
+420,5105,VA,Bob Good,Good,Republican,Virginia,217584,183170,6594,407348,VA05,VA_5
+421,5106,VA,Ben Cline,Cline,Republican,Virginia,231005,149404,8858,389267,VA06,VA_6
+212,5107,VA,Abigail Davis Spanberger,Spanberger,Democrat,Virginia,223199,228179,8422,459800,VA07,VA_7
+213,5108,VA,"Donald S. Beyer, Jr.",Beyer,Democrat,Virginia,84711,311470,8600,404781,VA08,VA_8
+422,5109,VA,H. Morgan Griffith,Griffith,Republican,Virginia,244958,98609,5037,348604,VA09,VA_9
+208,5000,VT,Peter Welch,Welch,Democrat,Vermont,112704,242820,11904,367428,VT00,VT_At-Large
+216,5301,WA,Suzan K. DelBene,DelBene,Democrat,Washington,166460,257631,15068,439159,WA01,WA_1
+222,5310,WA,Marilyn Strickland,Strickland,Democrat,Washington,157058,216800,14642,388500,WA10,WA_10
+217,5302,WA,Rick Larsen,Larsen,Democrat,Washington,145138,257291,14504,416933,WA02,WA_2
+423,5303,WA,Jaime Herrera Beutler,Beutler,Republican,Washington,214391,198429,13369,426189,WA03,WA_3
+424,5304,WA,Dan Newhouse,Newhouse,Republican,Washington,179022,122691,9623,311336,WA04,WA_4
+425,5305,WA,Cathy McMorris Rodgers,Rodgers,Republican,Washington,215706,178895,14847,409448,WA05,WA_5
+218,5306,WA,Derek Kilmer,Kilmer,Democrat,Washington,168250,244141,15731,428122,WA06,WA_6
+219,5307,WA,Pramila Jayapal,Jayapal,Democrat,Washington,58832,410067,12304,481203,WA07,WA_7
+220,5308,WA,Kim Schrier,Schrier,Democrat,Washington,190801,218274,13463,422538,WA08,WA_8
+221,5309,WA,Adam Smith,Smith,Democrat,Washington,88993,265393,9817,364203,WA09,WA_9
+429,5501,WI,Bryan Steil,Steil,Republican,Wisconsin,220664,182938,6853,410455,WI01,WI_1
+223,5502,WI,Mark Pocan,Pocan,Democrat,Wisconsin,136439,323807,7890,468136,WI02,WI_2
+430,5503,WI,Ron Kind,Kind,Democrat,Wisconsin,202659,184306,7689,394654,WI03,WI_3
+224,5504,WI,Gwen Moore,Moore,Democrat,Wisconsin,71698,242003,4970,318671,WI04,WI_4
+431,5505,WI,Scott Fitzgerald,Fitzgerald,Republican,Wisconsin,255819,187858,7518,451195,WI05,WI_5
+432,5506,WI,Glenn Grothman,Grothman,Republican,Wisconsin,232818,170457,7465,410740,WI06,WI_6
+433,5507,WI,Thomas P. Tiffany,Tiffany,Republican,Wisconsin,248822,165104,7101,421027,WI07,WI_7
+434,5508,WI,Mike Gallagher,Gallagher,Republican,Wisconsin,241140,174136,7135,422411,WI08,WI_8
+426,5401,WV,David B. McKinley,McKinley,Republican,West Virginia,183904,81849,4757,270510,WV01,WV_1
+427,5402,WV,Alexander X. Mooney,Mooney,Republican,West Virginia,184784,92623,5149,282556,WV02,WV_2
+428,5403,WV,Carol Miller,Miller,Republican,West Virginia,176694,61512,3380,241586,WV03,WV_3
+435,5600,WY,Liz Cheney,Cheney,Republican,Wyoming,193559,73491,9715,276765,WY00,WY_At-Large
